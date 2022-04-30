@@ -1,0 +1,14 @@
+.head_content{
+    text-align: center;
+    margin-top: 400px;
+    color: black;
+}
+.btn-primary{
+    background-color: aliceblue;
+    color: black;
+    padding-right: 50px;
+    padding-left: 50px;
+    border-radius: 10px;
+    font-family:'cooper'
+    
+}

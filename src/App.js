@@ -8,13 +8,12 @@ import Book from './componets/Book';
 function App() {
   return (
     <>
-  <Header/>
-    <Routes>
-					
-					<Route  path="/book" element={<Book/>}/>
-					<Route  path="/feed" element={<Feed/>}/>
-					
-		</Routes>
+     <Header/>
+      <Routes>
+        <Route path="/book" element={<Book />} />
+        <Route path="/feed" element={<Feed />} />
+
+      </Routes>
     </>
   );
 }
