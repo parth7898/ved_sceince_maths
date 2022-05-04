@@ -8,6 +8,7 @@
   min-height: 900px;
   /* Needed to position the navbar */
   position: relative;
+  /* z-index: -1; */
 }
 .container{
     position: absolute;

@@ -2,16 +2,9 @@ import React from 'react'
 import './header.css'
 import './home_content.css'
 import { Link } from "react-router-dom";
-import Home_Content from './Home_Content';
-import { useState } from 'react';
 export default function Header() {
-	var a = window.location.href
-	const [count, setCounter] = useState(a)
-	console.log(count)
-
 	return (
 		<>
-
 			<div className='banner'>
 				<div className='container'>
 					<nav class="navbar navbar-expand-lg navbar-dark shadow-5-strong">
@@ -22,7 +15,7 @@ export default function Header() {
 						<div class="collapse navbar-collapse" id="navbarNav">
 							<ul class="navbar-nav">
 								<li class="nav-item active">
-									<Link className="nav-link" Link to="/">Home <span class="sr-only">(current)</span></Link>
+									<Link className="nav-link" Link to="/home">Home</Link>
 								</li>
 								<li class="nav-item">
 									<Link class="nav-link" Link to="/book">Book</Link>
@@ -41,11 +34,7 @@ export default function Header() {
 								</li>
 							</ul>
 						</div>
-					</nav>
-					<div className='head_content'>
-					<Home_Content/>
-					</div>
-					
+					</nav>		
 				</div>
 			</div>
 		</>

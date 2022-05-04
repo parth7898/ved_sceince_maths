@@ -1,8 +1,10 @@
 .head_content{
     text-align: center;
-    margin-top: 400px;
+    margin-top: -30rem;
     color: black;
+    /* z-index: 2; */
 }
+
 .btn-primary{
     background-color: aliceblue;
     color: black;
